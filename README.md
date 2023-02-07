@@ -2,7 +2,7 @@
 
 You will find the following files : 
 
-[Dockerfile] : build sample nginx docker container (including image scan using trivy utility during build, if tool return non-zero exit code build will fail).Added html page( html/index.html) to check docker container functionality.
+[Dockerfile](https://github.com/serkan-usta/CISION_Q1_Q5/blob/main/Dockerfile) : build sample nginx docker container (including image scan using trivy utility during build, if tool return non-zero exit code build will fail).Added html page( html/index.html) to check docker container functionality.
 
 k8s/nginx-statefulset.yaml : stateful set which deploys using GitHub Action from previously builded image; It includes resources and limits;
 
